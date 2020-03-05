@@ -825,23 +825,7 @@
 <p id="p1319001510463"><a name="p1319001510463"></a><a name="p1319001510463"></a>是</p>
 </td>
 </tr>
-<tr id="row1519031564615"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p2190915154616"><a name="p2190915154616"></a><a name="p2190915154616"></a>50</p>
-</td>
-<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p1919041534618"><a name="p1919041534618"></a><a name="p1919041534618"></a>tf.nn.leaky_relu</p>
-</td>
-<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.3 "><p id="p119101515469"><a name="p119101515469"></a><a name="p119101515469"></a>LeakyRelu</p>
-</td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.5.1.4 "><p id="p171911515174620"><a name="p171911515174620"></a><a name="p171911515174620"></a>【参数】</p>
-<a name="ul8167427175814"></a><a name="ul8167427175814"></a><ul id="ul8167427175814"><li>features：1个Tensor，支持数据类型：float32</li><li>alpha：x &lt;0时激活函数的斜率</li><li>name：名称（可选）</li></ul>
-<p id="p01917158467"><a name="p01917158467"></a><a name="p01917158467"></a>【约束】</p>
-<p id="p3191181517463"><a name="p3191181517463"></a><a name="p3191181517463"></a>无限制</p>
-<p id="p19191615154613"><a name="p19191615154613"></a><a name="p19191615154613"></a>【输出】</p>
-<p id="p9191915174615"><a name="p9191915174615"></a><a name="p9191915174615"></a>激活值</p>
-<p id="p14191615114612"><a name="p14191615114612"></a><a name="p14191615114612"></a>【量化工具支持】</p>
-<p id="p4191171574619"><a name="p4191171574619"></a><a name="p4191171574619"></a>是</p>
-</td>
-</tr>
-<tr id="row7191615154618"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p1819151584613"><a name="p1819151584613"></a><a name="p1819151584613"></a>51</p>
+<tr id="row7191615154618"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p1819151584613"><a name="p1819151584613"></a><a name="p1819151584613"></a>50</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p191911515194613"><a name="p191911515194613"></a><a name="p191911515194613"></a>tf.placeholder</p>
 </td>
@@ -857,7 +841,7 @@
 <p id="p5191171564617"><a name="p5191171564617"></a><a name="p5191171564617"></a>否</p>
 </td>
 </tr>
-<tr id="row1619171510461"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p1719115154464"><a name="p1719115154464"></a><a name="p1719115154464"></a>52</p>
+<tr id="row1619171510461"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p1719115154464"><a name="p1719115154464"></a><a name="p1719115154464"></a>51</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p719111151468"><a name="p719111151468"></a><a name="p719111151468"></a>tf.shape</p>
 </td>
@@ -873,7 +857,7 @@
 <p id="p8497134335813"><a name="p8497134335813"></a><a name="p8497134335813"></a>无需支持</p>
 </td>
 </tr>
-<tr id="row141921215114620"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p819291513465"><a name="p819291513465"></a><a name="p819291513465"></a>53</p>
+<tr id="row141921215114620"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p819291513465"><a name="p819291513465"></a><a name="p819291513465"></a>52</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p71921015154614"><a name="p71921015154614"></a><a name="p71921015154614"></a>tf.math.argmax</p>
 </td>
@@ -889,7 +873,7 @@
 <p id="p71921415154613"><a name="p71921415154613"></a><a name="p71921415154613"></a>否</p>
 </td>
 </tr>
-<tr id="row1194131518460"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p2194141564614"><a name="p2194141564614"></a><a name="p2194141564614"></a>54</p>
+<tr id="row1194131518460"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p2194141564614"><a name="p2194141564614"></a><a name="p2194141564614"></a>53</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p16194161534613"><a name="p16194161534613"></a><a name="p16194161534613"></a>tf.gather</p>
 </td>
@@ -906,7 +890,7 @@
 <p id="p11952015114620"><a name="p11952015114620"></a><a name="p11952015114620"></a>否</p>
 </td>
 </tr>
-<tr id="row219571524617"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p1919521574613"><a name="p1919521574613"></a><a name="p1919521574613"></a>55</p>
+<tr id="row219571524617"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p1919521574613"><a name="p1919521574613"></a><a name="p1919521574613"></a>54</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p191951615124618"><a name="p191951615124618"></a><a name="p191951615124618"></a>tf.gather_nd</p>
 </td>
@@ -922,7 +906,7 @@
 <p id="p14195181554618"><a name="p14195181554618"></a><a name="p14195181554618"></a>是</p>
 </td>
 </tr>
-<tr id="row15195615124618"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p8195131564616"><a name="p8195131564616"></a><a name="p8195131564616"></a>56</p>
+<tr id="row15195615124618"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p8195131564616"><a name="p8195131564616"></a><a name="p8195131564616"></a>55</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p1419511516460"><a name="p1419511516460"></a><a name="p1419511516460"></a>tf.math.floordiv</p>
 </td>
@@ -938,7 +922,7 @@
 <p id="p181969158464"><a name="p181969158464"></a><a name="p181969158464"></a>否</p>
 </td>
 </tr>
-<tr id="row2019621554613"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p171978151466"><a name="p171978151466"></a><a name="p171978151466"></a>57</p>
+<tr id="row2019621554613"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p171978151466"><a name="p171978151466"></a><a name="p171978151466"></a>56</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p41976158465"><a name="p41976158465"></a><a name="p41976158465"></a>tf.range</p>
 </td>
@@ -954,7 +938,7 @@
 <p id="p10198115114610"><a name="p10198115114610"></a><a name="p10198115114610"></a>否</p>
 </td>
 </tr>
-<tr id="row1198111518463"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p1919881513465"><a name="p1919881513465"></a><a name="p1919881513465"></a>58</p>
+<tr id="row1198111518463"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p1919881513465"><a name="p1919881513465"></a><a name="p1919881513465"></a>57</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p161981615144620"><a name="p161981615144620"></a><a name="p161981615144620"></a>tf.tile</p>
 </td>
@@ -971,7 +955,7 @@
 <p id="p519813153460"><a name="p519813153460"></a><a name="p519813153460"></a>是</p>
 </td>
 </tr>
-<tr id="row619851510468"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p519891517465"><a name="p519891517465"></a><a name="p519891517465"></a>59</p>
+<tr id="row619851510468"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p519891517465"><a name="p519891517465"></a><a name="p519891517465"></a>58</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p319811510465"><a name="p319811510465"></a><a name="p319811510465"></a>tf.size</p>
 </td>
@@ -987,7 +971,7 @@
 <p id="p31995151461"><a name="p31995151461"></a><a name="p31995151461"></a>否</p>
 </td>
 </tr>
-<tr id="row16199111513462"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p119971514464"><a name="p119971514464"></a><a name="p119971514464"></a>60</p>
+<tr id="row16199111513462"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p119971514464"><a name="p119971514464"></a><a name="p119971514464"></a>59</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p9199615134614"><a name="p9199615134614"></a><a name="p9199615134614"></a>tf.fill</p>
 </td>
@@ -1003,7 +987,7 @@
 <p id="p1120010151467"><a name="p1120010151467"></a><a name="p1120010151467"></a>否</p>
 </td>
 </tr>
-<tr id="row19200131564612"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p5200161574614"><a name="p5200161574614"></a><a name="p5200161574614"></a>61</p>
+<tr id="row19200131564612"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p5200161574614"><a name="p5200161574614"></a><a name="p5200161574614"></a>60</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p1820031510465"><a name="p1820031510465"></a><a name="p1820031510465"></a>tf.concat</p>
 </td>
@@ -1020,7 +1004,7 @@
 <p id="p1120020159463"><a name="p1120020159463"></a><a name="p1120020159463"></a>是</p>
 </td>
 </tr>
-<tr id="row14200715204613"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p10200121524610"><a name="p10200121524610"></a><a name="p10200121524610"></a>62</p>
+<tr id="row14200715204613"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p10200121524610"><a name="p10200121524610"></a><a name="p10200121524610"></a>61</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p7200151519464"><a name="p7200151519464"></a><a name="p7200151519464"></a>tf.reverse</p>
 </td>
@@ -1036,7 +1020,7 @@
 <p id="p1320181584615"><a name="p1320181584615"></a><a name="p1320181584615"></a>否</p>
 </td>
 </tr>
-<tr id="row82011915114615"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p4201915194619"><a name="p4201915194619"></a><a name="p4201915194619"></a>63</p>
+<tr id="row82011915114615"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p4201915194619"><a name="p4201915194619"></a><a name="p4201915194619"></a>62</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p1620112157460"><a name="p1620112157460"></a><a name="p1620112157460"></a>tf. reduce_sum</p>
 </td>
@@ -1052,7 +1036,7 @@
 <p id="p15201181519467"><a name="p15201181519467"></a><a name="p15201181519467"></a>否</p>
 </td>
 </tr>
-<tr id="row6201715204614"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p0201141564620"><a name="p0201141564620"></a><a name="p0201141564620"></a>64</p>
+<tr id="row6201715204614"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p0201141564620"><a name="p0201141564620"></a><a name="p0201141564620"></a>63</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p4201181564612"><a name="p4201181564612"></a><a name="p4201181564612"></a>tf. math.maximum</p>
 </td>
@@ -1069,7 +1053,7 @@
 <p id="p520201519466"><a name="p520201519466"></a><a name="p520201519466"></a>否</p>
 </td>
 </tr>
-<tr id="row14202191514615"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p820211564614"><a name="p820211564614"></a><a name="p820211564614"></a>65</p>
+<tr id="row14202191514615"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p820211564614"><a name="p820211564614"></a><a name="p820211564614"></a>64</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p202021515144617"><a name="p202021515144617"></a><a name="p202021515144617"></a>tf. math.minimum</p>
 </td>
@@ -1087,7 +1071,7 @@
 <p id="p17202715144614"><a name="p17202715144614"></a><a name="p17202715144614"></a>否</p>
 </td>
 </tr>
-<tr id="row14202131534618"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p82025158461"><a name="p82025158461"></a><a name="p82025158461"></a>66</p>
+<tr id="row14202131534618"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p82025158461"><a name="p82025158461"></a><a name="p82025158461"></a>65</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p102021415144612"><a name="p102021415144612"></a><a name="p102021415144612"></a>tf.clip_by_value</p>
 </td>
@@ -1103,7 +1087,7 @@
 <p id="p17203161524616"><a name="p17203161524616"></a><a name="p17203161524616"></a>否</p>
 </td>
 </tr>
-<tr id="row3203161519469"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p1203181594614"><a name="p1203181594614"></a><a name="p1203181594614"></a>67</p>
+<tr id="row3203161519469"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p1203181594614"><a name="p1203181594614"></a><a name="p1203181594614"></a>66</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p220311154468"><a name="p220311154468"></a><a name="p220311154468"></a>tf.math.logical_not</p>
 </td>
@@ -1119,7 +1103,7 @@
 <p id="p620381515469"><a name="p620381515469"></a><a name="p620381515469"></a>否</p>
 </td>
 </tr>
-<tr id="row112032015174619"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p92033154466"><a name="p92033154466"></a><a name="p92033154466"></a>68</p>
+<tr id="row112032015174619"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p92033154466"><a name="p92033154466"></a><a name="p92033154466"></a>67</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p720351554610"><a name="p720351554610"></a><a name="p720351554610"></a>tf.math.logical_and</p>
 </td>
@@ -1135,7 +1119,7 @@
 <p id="p1820491513469"><a name="p1820491513469"></a><a name="p1820491513469"></a>否</p>
 </td>
 </tr>
-<tr id="row172041153462"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p142044157468"><a name="p142044157468"></a><a name="p142044157468"></a>69</p>
+<tr id="row172041153462"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p142044157468"><a name="p142044157468"></a><a name="p142044157468"></a>68</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p8204515124619"><a name="p8204515124619"></a><a name="p8204515124619"></a>tf.equal</p>
 </td>
@@ -1151,7 +1135,7 @@
 <p id="p17204131513466"><a name="p17204131513466"></a><a name="p17204131513466"></a>否</p>
 </td>
 </tr>
-<tr id="row3204015184614"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p1320451515469"><a name="p1320451515469"></a><a name="p1320451515469"></a>70</p>
+<tr id="row3204015184614"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p1320451515469"><a name="p1320451515469"></a><a name="p1320451515469"></a>69</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p1020414151464"><a name="p1020414151464"></a><a name="p1020414151464"></a>tf.square</p>
 </td>
@@ -1167,7 +1151,7 @@
 <p id="p13204111534618"><a name="p13204111534618"></a><a name="p13204111534618"></a>否</p>
 </td>
 </tr>
-<tr id="row920431554610"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p0205111513464"><a name="p0205111513464"></a><a name="p0205111513464"></a>71</p>
+<tr id="row920431554610"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p0205111513464"><a name="p0205111513464"></a><a name="p0205111513464"></a>70</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p3205161514611"><a name="p3205161514611"></a><a name="p3205161514611"></a>tf.image.crop_and_resize</p>
 </td>
@@ -1183,7 +1167,7 @@
 <p id="p520591511469"><a name="p520591511469"></a><a name="p520591511469"></a>否</p>
 </td>
 </tr>
-<tr id="row1820517158466"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p1205161504611"><a name="p1205161504611"></a><a name="p1205161504611"></a>72</p>
+<tr id="row1820517158466"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p1205161504611"><a name="p1205161504611"></a><a name="p1205161504611"></a>71</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p11205115154612"><a name="p11205115154612"></a><a name="p11205115154612"></a>tf.math.top_k</p>
 </td>
@@ -1199,7 +1183,7 @@
 </li></ul>
 </td>
 </tr>
-<tr id="row13218131518467"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p14218171524613"><a name="p14218171524613"></a><a name="p14218171524613"></a>73</p>
+<tr id="row13218131518467"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p14218171524613"><a name="p14218171524613"></a><a name="p14218171524613"></a>72</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p821881554616"><a name="p821881554616"></a><a name="p821881554616"></a>tf.invert_permutation</p>
 </td>
@@ -1215,7 +1199,7 @@
 <p id="p82181115174618"><a name="p82181115174618"></a><a name="p82181115174618"></a>否</p>
 </td>
 </tr>
-<tr id="row1521812151466"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p18218161534619"><a name="p18218161534619"></a><a name="p18218161534619"></a>74</p>
+<tr id="row1521812151466"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p18218161534619"><a name="p18218161534619"></a><a name="p18218161534619"></a>73</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p152181115184620"><a name="p152181115184620"></a><a name="p152181115184620"></a>tf.multinomial</p>
 </td>
@@ -1232,7 +1216,7 @@
 <p id="p1421915158466"><a name="p1421915158466"></a><a name="p1421915158466"></a>否</p>
 </td>
 </tr>
-<tr id="row9219191524618"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p10219915114613"><a name="p10219915114613"></a><a name="p10219915114613"></a>75</p>
+<tr id="row9219191524618"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p10219915114613"><a name="p10219915114613"></a><a name="p10219915114613"></a>74</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p82191815184616"><a name="p82191815184616"></a><a name="p82191815184616"></a>tf.reverse_sequence</p>
 </td>
@@ -1248,7 +1232,7 @@
 <p id="p722071514463"><a name="p722071514463"></a><a name="p722071514463"></a>否</p>
 </td>
 </tr>
-<tr id="row8220151518468"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p1922019154467"><a name="p1922019154467"></a><a name="p1922019154467"></a>76</p>
+<tr id="row8220151518468"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p1922019154467"><a name="p1922019154467"></a><a name="p1922019154467"></a>75</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p622021511468"><a name="p622021511468"></a><a name="p622021511468"></a>tf.math.reciprocal</p>
 </td>
@@ -1264,7 +1248,7 @@
 <p id="p6220111510468"><a name="p6220111510468"></a><a name="p6220111510468"></a>否</p>
 </td>
 </tr>
-<tr id="row1220171554615"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p3220181514462"><a name="p3220181514462"></a><a name="p3220181514462"></a>77</p>
+<tr id="row1220171554615"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p3220181514462"><a name="p3220181514462"></a><a name="p3220181514462"></a>76</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p722021519468"><a name="p722021519468"></a><a name="p722021519468"></a>tf.nn.selu</p>
 </td>
@@ -1280,7 +1264,7 @@
 <p id="p522061574617"><a name="p522061574617"></a><a name="p522061574617"></a>否</p>
 </td>
 </tr>
-<tr id="row3220515184620"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p9220131544612"><a name="p9220131544612"></a><a name="p9220131544612"></a>78</p>
+<tr id="row3220515184620"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p9220131544612"><a name="p9220131544612"></a><a name="p9220131544612"></a>77</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p52211215124610"><a name="p52211215124610"></a><a name="p52211215124610"></a>tf.math.acosh</p>
 </td>
@@ -1296,7 +1280,7 @@
 <p id="p20221151534619"><a name="p20221151534619"></a><a name="p20221151534619"></a>否</p>
 </td>
 </tr>
-<tr id="row18221201512465"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p1422111515464"><a name="p1422111515464"></a><a name="p1422111515464"></a>79</p>
+<tr id="row18221201512465"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p1422111515464"><a name="p1422111515464"></a><a name="p1422111515464"></a>78</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p19221101554618"><a name="p19221101554618"></a><a name="p19221101554618"></a>tf.math.asinh</p>
 </td>
@@ -1312,7 +1296,7 @@
 <p id="p202211315144612"><a name="p202211315144612"></a><a name="p202211315144612"></a>否</p>
 </td>
 </tr>
-<tr id="row16221111519469"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p1622110150468"><a name="p1622110150468"></a><a name="p1622110150468"></a>80</p>
+<tr id="row16221111519469"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p1622110150468"><a name="p1622110150468"></a><a name="p1622110150468"></a>79</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p62212155466"><a name="p62212155466"></a><a name="p62212155466"></a>tf.math.reduce_prod</p>
 </td>
@@ -1328,7 +1312,7 @@
 <p id="p1022212156466"><a name="p1022212156466"></a><a name="p1022212156466"></a>否</p>
 </td>
 </tr>
-<tr id="row18222171514466"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p1022216154463"><a name="p1022216154463"></a><a name="p1022216154463"></a>81</p>
+<tr id="row18222171514466"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p1022216154463"><a name="p1022216154463"></a><a name="p1022216154463"></a>80</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p122214158465"><a name="p122214158465"></a><a name="p122214158465"></a>tf.math.sqrt</p>
 </td>
@@ -1344,7 +1328,7 @@
 <p id="p15222171515469"><a name="p15222171515469"></a><a name="p15222171515469"></a>否</p>
 </td>
 </tr>
-<tr id="row152229159461"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p2022251511466"><a name="p2022251511466"></a><a name="p2022251511466"></a>82</p>
+<tr id="row152229159461"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p2022251511466"><a name="p2022251511466"></a><a name="p2022251511466"></a>81</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p172221155463"><a name="p172221155463"></a><a name="p172221155463"></a>tf.math.reduce_all</p>
 </td>
@@ -1360,7 +1344,7 @@
 <p id="p182221015114618"><a name="p182221015114618"></a><a name="p182221015114618"></a>否</p>
 </td>
 </tr>
-<tr id="row112221715134610"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p7222121516468"><a name="p7222121516468"></a><a name="p7222121516468"></a>83</p>
+<tr id="row112221715134610"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p7222121516468"><a name="p7222121516468"></a><a name="p7222121516468"></a>82</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p1822213154463"><a name="p1822213154463"></a><a name="p1822213154463"></a>tf.nn.l2_normalize</p>
 </td>
@@ -1377,7 +1361,7 @@
 <p id="p82238157467"><a name="p82238157467"></a><a name="p82238157467"></a>否</p>
 </td>
 </tr>
-<tr id="row8223515164618"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p2223111524614"><a name="p2223111524614"></a><a name="p2223111524614"></a>84</p>
+<tr id="row8223515164618"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p2223111524614"><a name="p2223111524614"></a><a name="p2223111524614"></a>83</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p19223171517465"><a name="p19223171517465"></a><a name="p19223171517465"></a>tf.keras.backend.hard_sigmoid</p>
 </td>
@@ -1394,7 +1378,7 @@
 <p id="p15223161564615"><a name="p15223161564615"></a><a name="p15223161564615"></a>否</p>
 </td>
 </tr>
-<tr id="row182231015164619"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p17223315184618"><a name="p17223315184618"></a><a name="p17223315184618"></a>85</p>
+<tr id="row182231015164619"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p17223315184618"><a name="p17223315184618"></a><a name="p17223315184618"></a>84</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p622331594619"><a name="p622331594619"></a><a name="p622331594619"></a>tf.keras.layers.ThresholdedReLU</p>
 </td>
@@ -1410,7 +1394,7 @@
 <p id="p192231015134619"><a name="p192231015134619"></a><a name="p192231015134619"></a>否</p>
 </td>
 </tr>
-<tr id="row822391574615"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p10223121518465"><a name="p10223121518465"></a><a name="p10223121518465"></a>86</p>
+<tr id="row822391574615"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p10223121518465"><a name="p10223121518465"></a><a name="p10223121518465"></a>85</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p1022415152462"><a name="p1022415152462"></a><a name="p1022415152462"></a>tf.math.acos</p>
 </td>
@@ -1427,7 +1411,7 @@
 <p id="p92242155465"><a name="p92242155465"></a><a name="p92242155465"></a>否</p>
 </td>
 </tr>
-<tr id="row1122401517466"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p1222471514466"><a name="p1222471514466"></a><a name="p1222471514466"></a>87</p>
+<tr id="row1122401517466"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p1222471514466"><a name="p1222471514466"></a><a name="p1222471514466"></a>86</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p192242015184612"><a name="p192242015184612"></a><a name="p192242015184612"></a>tf.math.atan</p>
 </td>
@@ -1444,7 +1428,7 @@
 <p id="p12245153464"><a name="p12245153464"></a><a name="p12245153464"></a>否</p>
 </td>
 </tr>
-<tr id="row22241515134611"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p622417155468"><a name="p622417155468"></a><a name="p622417155468"></a>88</p>
+<tr id="row22241515134611"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p622417155468"><a name="p622417155468"></a><a name="p622417155468"></a>87</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p142241915194620"><a name="p142241915194620"></a><a name="p142241915194620"></a>tf.math.asin</p>
 </td>
@@ -1460,7 +1444,7 @@
 <p id="p2224141518469"><a name="p2224141518469"></a><a name="p2224141518469"></a>否</p>
 </td>
 </tr>
-<tr id="row022416151464"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p16224141544617"><a name="p16224141544617"></a><a name="p16224141544617"></a>89</p>
+<tr id="row022416151464"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p16224141544617"><a name="p16224141544617"></a><a name="p16224141544617"></a>88</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p4225121594618"><a name="p4225121594618"></a><a name="p4225121594618"></a>tf.math.atanh</p>
 </td>
@@ -1476,7 +1460,7 @@
 <p id="p52251815124617"><a name="p52251815124617"></a><a name="p52251815124617"></a>否</p>
 </td>
 </tr>
-<tr id="row4225131515462"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p2225715144612"><a name="p2225715144612"></a><a name="p2225715144612"></a>90</p>
+<tr id="row4225131515462"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p2225715144612"><a name="p2225715144612"></a><a name="p2225715144612"></a>89</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p7225191544612"><a name="p7225191544612"></a><a name="p7225191544612"></a>tf.math.tan</p>
 </td>
@@ -1492,7 +1476,7 @@
 <p id="p922561574611"><a name="p922561574611"></a><a name="p922561574611"></a>否</p>
 </td>
 </tr>
-<tr id="row172251159462"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p922501584614"><a name="p922501584614"></a><a name="p922501584614"></a>91</p>
+<tr id="row172251159462"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p922501584614"><a name="p922501584614"></a><a name="p922501584614"></a>90</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p20225121520463"><a name="p20225121520463"></a><a name="p20225121520463"></a>tf.math.logical_or</p>
 </td>
@@ -1508,7 +1492,7 @@
 <p id="p1722591574612"><a name="p1722591574612"></a><a name="p1722591574612"></a>否</p>
 </td>
 </tr>
-<tr id="row17225615204614"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p5226151564610"><a name="p5226151564610"></a><a name="p5226151564610"></a>92</p>
+<tr id="row17225615204614"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p5226151564610"><a name="p5226151564610"></a><a name="p5226151564610"></a>91</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p1122661574616"><a name="p1122661574616"></a><a name="p1122661574616"></a>tf.math.reduce_min</p>
 </td>
@@ -1524,7 +1508,7 @@
 <p id="p12226121534619"><a name="p12226121534619"></a><a name="p12226121534619"></a>否</p>
 </td>
 </tr>
-<tr id="row152269159465"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p1226161517469"><a name="p1226161517469"></a><a name="p1226161517469"></a>93</p>
+<tr id="row152269159465"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p1226161517469"><a name="p1226161517469"></a><a name="p1226161517469"></a>92</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p102267155465"><a name="p102267155465"></a><a name="p102267155465"></a>tf.math.negative</p>
 </td>
@@ -1540,7 +1524,7 @@
 <p id="p13226191515461"><a name="p13226191515461"></a><a name="p13226191515461"></a>否</p>
 </td>
 </tr>
-<tr id="row4226171544617"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p122613157463"><a name="p122613157463"></a><a name="p122613157463"></a>94</p>
+<tr id="row4226171544617"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p122613157463"><a name="p122613157463"></a><a name="p122613157463"></a>93</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p722621514611"><a name="p722621514611"></a><a name="p722621514611"></a>tf.math.greater_equal</p>
 </td>
@@ -1556,7 +1540,7 @@
 <p id="p1722751520469"><a name="p1722751520469"></a><a name="p1722751520469"></a>否</p>
 </td>
 </tr>
-<tr id="row8227111524611"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p1122741584611"><a name="p1122741584611"></a><a name="p1122741584611"></a>95</p>
+<tr id="row8227111524611"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p1122741584611"><a name="p1122741584611"></a><a name="p1122741584611"></a>94</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p14227215154614"><a name="p14227215154614"></a><a name="p14227215154614"></a>tf.space_to_depth</p>
 </td>
@@ -1572,7 +1556,7 @@
 <p id="p1522781534617"><a name="p1522781534617"></a><a name="p1522781534617"></a>否</p>
 </td>
 </tr>
-<tr id="row12227141514616"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p922741519460"><a name="p922741519460"></a><a name="p922741519460"></a>96</p>
+<tr id="row12227141514616"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p922741519460"><a name="p922741519460"></a><a name="p922741519460"></a>95</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p1522718156464"><a name="p1522718156464"></a><a name="p1522718156464"></a>tf.depth_to_space</p>
 </td>
@@ -1588,7 +1572,7 @@
 <p id="p202271215144618"><a name="p202271215144618"></a><a name="p202271215144618"></a>否</p>
 </td>
 </tr>
-<tr id="row7227615124620"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p1222761574619"><a name="p1222761574619"></a><a name="p1222761574619"></a>97</p>
+<tr id="row7227615124620"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p1222761574619"><a name="p1222761574619"></a><a name="p1222761574619"></a>96</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p2228515144613"><a name="p2228515144613"></a><a name="p2228515144613"></a>tf.math.round</p>
 </td>
@@ -1604,7 +1588,7 @@
 <p id="p1022811154462"><a name="p1022811154462"></a><a name="p1022811154462"></a>否</p>
 </td>
 </tr>
-<tr id="row622813157462"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p422811564610"><a name="p422811564610"></a><a name="p422811564610"></a>98</p>
+<tr id="row622813157462"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p422811564610"><a name="p422811564610"></a><a name="p422811564610"></a>97</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p1522881564615"><a name="p1522881564615"></a><a name="p1522881564615"></a>tf.math.rint</p>
 </td>
@@ -1620,7 +1604,7 @@
 <p id="p15228101510464"><a name="p15228101510464"></a><a name="p15228101510464"></a>否</p>
 </td>
 </tr>
-<tr id="row20228151514464"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p0228315184614"><a name="p0228315184614"></a><a name="p0228315184614"></a>99</p>
+<tr id="row20228151514464"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p0228315184614"><a name="p0228315184614"></a><a name="p0228315184614"></a>98</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p822821554611"><a name="p822821554611"></a><a name="p822821554611"></a>tf.math.less</p>
 </td>
@@ -1636,7 +1620,7 @@
 <p id="p42281155466"><a name="p42281155466"></a><a name="p42281155466"></a>否</p>
 </td>
 </tr>
-<tr id="row17228151518466"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p722861512464"><a name="p722861512464"></a><a name="p722861512464"></a>100</p>
+<tr id="row17228151518466"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p722861512464"><a name="p722861512464"></a><a name="p722861512464"></a>99</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p102291153468"><a name="p102291153468"></a><a name="p102291153468"></a>tf.math.sinh</p>
 </td>
@@ -1652,7 +1636,7 @@
 <p id="p19229131510462"><a name="p19229131510462"></a><a name="p19229131510462"></a>否</p>
 </td>
 </tr>
-<tr id="row1722981554615"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p82291153463"><a name="p82291153463"></a><a name="p82291153463"></a>101</p>
+<tr id="row1722981554615"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p82291153463"><a name="p82291153463"></a><a name="p82291153463"></a>100</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p1922910151460"><a name="p1922910151460"></a><a name="p1922910151460"></a>tf.math.cosh</p>
 </td>
@@ -1668,7 +1652,7 @@
 <p id="p182291415174615"><a name="p182291415174615"></a><a name="p182291415174615"></a>否</p>
 </td>
 </tr>
-<tr id="row9229161518467"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p18229141594618"><a name="p18229141594618"></a><a name="p18229141594618"></a>102</p>
+<tr id="row9229161518467"><td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.1 "><p id="p18229141594618"><a name="p18229141594618"></a><a name="p18229141594618"></a>101</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.5.1.2 "><p id="p122291515164610"><a name="p122291515164610"></a><a name="p122291515164610"></a>tf.math.squared_difference</p>
 </td>

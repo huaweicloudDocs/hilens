@@ -1,6 +1,6 @@
 # HiLens Kit简介<a name="hilens_02_0048"></a>
 
-HiLens Kit是一款支持深度学习推理的摄像机。硬件集成Ascend 310芯片，提供高性能推理能力。系统内置Skill Framework，给运行的技能提供丰富的API接口。其具体参数请参见[表1](#table7925165613417)。该产品的具体介绍见华为云[Huawei HiLens产品页](https://www.huaweicloud.com/product/hilens.html)。
+HiLens Kit是一款支持深度学习推理的摄像机。硬件集成Ascend 310芯片，提供高性能推理能力。系统内置HiLens Framework，给运行的技能提供丰富的API接口。其具体参数请参见[表1](#table7925165613417)。该产品的具体介绍见华为云[Huawei HiLens产品页](https://www.huaweicloud.com/product/hilens.html)。
 
 **表 1**  HiLens Kit参数说明
 
@@ -37,7 +37,7 @@ HiLens Kit是一款支持深度学习推理的摄像机。硬件集成Ascend 310
 </td>
 <td class="cellrowborder" valign="top" width="12.58125812581258%" headers="mcps1.2.12.1.3 "><p id="p1292616561845"><a name="p1292616561845"></a><a name="p1292616561845"></a>1</p>
 </td>
-<td class="cellrowborder" valign="top" width="11.421142114211419%" headers="mcps1.2.12.1.4 "><p id="p129265561843"><a name="p129265561843"></a><a name="p129265561843"></a>200万像素，1080P</p>
+<td class="cellrowborder" valign="top" width="11.421142114211419%" headers="mcps1.2.12.1.4 "><p id="p129265561843"><a name="p129265561843"></a><a name="p129265561843"></a>200万像素，720P</p>
 </td>
 <td class="cellrowborder" valign="top" width="6.99069906990699%" headers="mcps1.2.12.1.5 "><p id="p17926165610417"><a name="p17926165610417"></a><a name="p17926165610417"></a>2</p>
 </td>
@@ -61,11 +61,19 @@ HiLens Kit安装了Euler系统，登录系统的默认账号名为“admin“，
 
 >![](public_sys-resources/icon-note.gif) **说明：**   
 >-   HiLens Kit计划于2019年10月正式出售，您届时可直接购买。如果您需要批量购买HiLens Kit，可联系一线市场人员或华为云售前热线。  
+>-   HiLens Kit暂不支持以渠道子账户购买。  
 >-   HiLens Kit具体使用方法请参见[HiLens Kit用户指南](https://support.huawei.com/enterprise/zh/ai-computing-platform/a200-3000hilens-pid-250700826)。  
 
 为了让HiLens Kit设备具备AI技能，需要将设备注册至Huawei HiLens控制台，才能在Huawei HiLens控制台上管理设备、开发技能等。
 
 本章主要介绍如何连接端侧设备Huawei Kit和云侧Huawei HiLens控制台，并在控制台对设备HiLens Kit进行操作。
+
+## 准备工作<a name="section3308629114812"></a>
+
+-   硬件准备：HiLens Kit，网线，电脑，路由器（可选，选择无线组网配置时需要），HDMI线，显示屏。
+-   软件准备：SSH登录工具，如[Putty](https://www.putty.org/)。
+
+## 操作指引<a name="section15792204115115"></a>
 
 注册Huawei Kit设备至控制台操作引导如下：
 
