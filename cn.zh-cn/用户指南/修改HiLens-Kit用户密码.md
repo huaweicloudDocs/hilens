@@ -2,6 +2,9 @@
 
 为保证安全性，请在首次将Huawei Kit设备注册至Huawei HiLens控制台后，立即修改用户名和密码。修改后，使用新的用户名和密码登录Huawei Kit设备。
 
+>![](public_sys-resources/icon-note.gif) **说明：**   
+>管理系统开发者命令行登录用户名和密码与HUAWEI HiLens智能边缘管理系统登录用户名和密码一致，修改后，使用新的用户名和密码登录Huawei  Kit设备和Huawei HiLens智能边缘系统。  
+
 修改HiLens Kit用户密码的操作步骤如下：
 
 1.  网线连接电脑和设备，确保可以SSH连接到HiLens Kit设备，详细操作指导请参见[步骤1：使用SSH连接到HiLens Kit](步骤1-使用SSH连接到HiLens-Kit.md)。
