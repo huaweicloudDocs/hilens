@@ -1,6 +1,6 @@
 # HiLens Kit简介<a name="hilens_02_0048"></a>
 
-HiLens Kit是一款支持深度学习推理的摄像机。硬件集成Ascend 310芯片，提供高性能推理能力。系统内置HiLens Framework，给运行的技能提供丰富的API接口。其具体参数请参见[表1](#table7925165613417)。该产品的具体介绍见华为云[Huawei HiLens产品页](https://www.huaweicloud.com/product/hilens.html)。
+HiLens Kit是一款具备AI推理能力的多媒体终端设备，具有强大的计算性能、高清摄像头接入、体积小、接口丰富等特点。硬件集成了Atlas 200 AI加速模块（简称Atlas 200），方便用户快速简捷的接入并使用Ascend 310 AI处理器强大的处理能力，主要应用于AI开发者预研开发和视频监控领域。系统内置HiLens Framework，给运行的技能提供丰富的API接口。其具体参数请参见[表1](#table7925165613417)。该产品的具体介绍见华为云[HiLens Kit 用户指南\>产品简介](https://support.huawei.com/enterprise/zh/doc/EDOC1100112066/be03db04)。
 
 **表 1**  HiLens Kit参数说明
 
@@ -57,31 +57,41 @@ HiLens Kit是一款支持深度学习推理的摄像机。硬件集成Ascend 310
 </tbody>
 </table>
 
-HiLens Kit安装了Euler系统，登录系统的默认账号名为“admin“，登录系统后，在命令行界面可通过执行“develop“命令登录开发者命令行界面。首次登录的默认参数请参见[HiLens Kit 用户指南\>默认数据](https://support.huawei.com/enterprise/zh/doc/EDOC1100112066/2347bab9)。为保证系统安全性，建议您在首次操作时修改初始参数值，并定期更新，详情请见[修改HiLens Kit用户密码](修改HiLens-Kit用户密码.md)。
+HiLens Kit出厂预装华为自研的Euler操作系统，用户无需安装操作系统。用户可通过浏览器登录华为HiLens 智能边缘管理系统，进行初始配置。初始化配置的详细操作请参见[HiLens Kit用户指南\>初始化配置](https://support.huawei.com/enterprise/zh/doc/EDOC1100112066/59baccc)。
 
 >![](public_sys-resources/icon-note.gif) **说明：**   
->-   HiLens Kit计划于2019年10月正式出售，您届时可直接购买。如果您需要批量购买HiLens Kit，可联系一线市场人员或华为云售前热线。  
->-   HiLens Kit暂不支持以渠道子账户购买。  
+>-   HiLens Kit已正式出售，您可直接[购买](https://console.huaweicloud.com/hilens/?region=cn-north-4&locale=zh-cn#/hilens/skillMarket/hilensKitPurchase)。如果您需要批量购买HiLens Kit，可联系一线市场人员或华为云售前热线。  
 >-   HiLens Kit具体使用方法请参见[HiLens Kit用户指南](https://support.huawei.com/enterprise/zh/ai-computing-platform/a200-3000hilens-pid-250700826)。  
 
-为了让HiLens Kit设备具备AI技能，需要将设备注册至Huawei HiLens控制台，才能在Huawei HiLens控制台上管理设备、开发技能等。
+## 注册HiLens Kit方式<a name="section10975516145419"></a>
 
-本章主要介绍如何连接端侧设备Huawei Kit和云侧Huawei HiLens控制台，并在控制台对设备HiLens Kit进行操作。
+为了让HiLens Kit设备具备AI技能，需要将设备注册至Huawei HiLens控制台，才能在Huawei HiLens控制台上管理设备和技能等。
 
-## 准备工作<a name="section3308629114812"></a>
+本章主要介绍如何登录端侧设备HiLens Kit并将设备注册至云侧Huawei HiLens控制台，在Huawei HiLens控制台上管理设备HiLens Kit。
 
--   硬件准备：HiLens Kit，网线，电脑，路由器（可选，选择无线组网配置时需要），HDMI线，显示屏。
--   软件准备：SSH登录工具，如[Putty](https://www.putty.org/)。
+-   目前只支持注册华为发布的HiLens Kit设备。
+-   针对注册的HiLens Kit设备，只能安装并使用“适用于Ascend310芯片”的技能。
 
-## 操作指引<a name="section15792204115115"></a>
+HiLens Kit有两种注册方式，分别是使用HiLens Kit智能边缘系统注册和SSH注册两种方式，具体的操作流程和指导如下：
 
-注册Huawei Kit设备至控制台操作引导如下：
+-   [智能边缘系统注册设备](智能边缘系统注册设备.md)
 
-1.  [步骤1：使用SSH连接到HiLens Kit](步骤1-使用SSH连接到HiLens-Kit.md)：使用SSH连接HiLens Kit设备，对HiLens Kit设备进行操作。
-2.  [步骤2：HiLens Kit组网配置](步骤2-HiLens-Kit组网配置.md)：为HiLens Kit设备配置组网，为注册设备做准备。
-3.  [步骤3：注册 Huawei Kit设备](步骤3-注册-Huawei-Kit设备.md)：注册HiLens Kit设备到Huawei HiLens控制台，连接端侧与云侧。
-4.  [修改HiLens Kit用户密码](修改HiLens-Kit用户密码.md)：为保证系统安全性，建议您在首次操作时修改初始参数值，并定期更新。
-5.  [配置防火墙](配置防火墙.md)：为了防止除您允许的IP地址范围之外的用户去访问HiLens Kit智能边缘系统，您可以通过配置防火墙，防止HiLens Kit智能边缘系统受到其他攻击。
+    ![](figures/zh-cn_image_0241719168.png)
 
-当HiLens Kit设备出现严重或不可修复的问题时，可对HiLens Kit进行出厂设置，详情请见[HiLens Kit用户指南 \> 恢复出厂设置](https://support.huawei.com/enterprise/zh/doc/EDOC1100112066/9b0a1fba)。
+-   [使用SSH注册设备](使用SSH注册设备.md)
+
+    **图 1**  使用SSH注册设备<a name="fig162133184818"></a>  
+    ![](figures/使用SSH注册设备.png "使用SSH注册设备")
+
+    >![](public_sys-resources/icon-note.gif) **说明：**   
+    >-   使用智能边缘系统注册设备需要升级系统固件版本至2.2.200.011，选择该注册方式前请仔细阅读[升级HiLens Kit系统固件版本](升级HiLens-Kit系统固件版本.md)，评估升级操作对业务连续性的风险。  
+    >    如果不能接受升级系统固件版本带来的风险，请选择使用SSH注册设备。  
+
+
+## HiLens Kit常用操作<a name="section833924317618"></a>
+
+-   [修改初始用户名和密码](https://support.huawei.com/enterprise/zh/doc/EDOC1100112066/f03e0dea)：为保证系统的安全性，初次登录时，请务必修改初始密码，并定期更新。
+
+-   [配置防火墙](配置防火墙.md)：为了防止除您允许的IP地址范围之外的用户去访问HiLens Kit智能边缘系统，您可以通过配置防火墙，防止HiLens Kit智能边缘系统受到其他攻击。
+-   [恢复出厂设置](https://support.huawei.com/enterprise/zh/doc/EDOC1100112066/9b0a1fba)：在使用HiLens Kit过程中，如果系统被误破坏之后，无法恢复正常的使用，需考虑恢复出厂设置。
 
