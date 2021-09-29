@@ -1,6 +1,6 @@
 # Caffe算子边界<a name="hilens_02_0059"></a>
 
-对于caffe框架，当算子的输入维度不是4时，如果存在axis参数，不能使用负数。
+对于Caffe框架，当算子的输入维度不是4时，如果存在axis参数，不能使用负数。
 
 “.om”模型支持的Caffe算子边界如[表1](#table153119587174)所示。
 
@@ -240,7 +240,7 @@
 <p id="p525817081813"><a name="p525817081813"></a><a name="p525817081813"></a>【参数】</p>
 <a name="ul1670433032920"></a><a name="ul1670433032920"></a><ul id="ul1670433032920"><li>num_output：可选，类型：uint32</li><li>bias_term：可选，类型：bool，默认为true</li><li>weight_filler：可选，类型：FillerParameter，维度为2</li><li>bias_filler：可选，类型：FillerParameter，维度为1</li><li>axis：可选，类型：int32，默认为1</li><li>transpose：可选，类型：bool，默认为false</li></ul>
 <p id="p625810131810"><a name="p625810131810"></a><a name="p625810131810"></a>【约束】</p>
-<a name="ul1950934012296"></a><a name="ul1950934012296"></a><ul id="ul1950934012296"><li>仅支持transpose=false，axis=1</li><li>Bais_C &lt;= 56832</li><li>如果客户要量化模型时，需要满足下列维度：</li><li>−       当N = 1，2 * CEIL（C，16） * 16 * xH * xW&lt;= 1024 * 1024</li><li>−       当N &gt; 1，2 * 16 * CEIL（C，16） * 16 * xH * xW &lt;= 1024 * 1024</li></ul>
+<a name="ul1950934012296"></a><a name="ul1950934012296"></a><ul id="ul1950934012296"><li>仅支持transpose=false，axis=1</li><li>Bais_C &lt;= 56832</li><li>如果客户要量化模型时，需要满足下列维度：</li><li>−       当N = 1，2 * CEIL（C，16） * 16 * xH * xW&lt;= 1024 * 1024</li><li>−       当N&gt;1，2 * 16 * CEIL（C，16） * 16 * xH * xW &lt;= 1024 * 1024</li></ul>
 <p id="p625890171813"><a name="p625890171813"></a><a name="p625890171813"></a>【量化工具支持】</p>
 <p id="p125860111814"><a name="p125860111814"></a><a name="p125860111814"></a>是</p>
 </td>
@@ -334,7 +334,7 @@
 <p id="p102631000183"><a name="p102631000183"></a><a name="p102631000183"></a>【参数】</p>
 <a name="ul1725911404302"></a><a name="ul1725911404302"></a><ul id="ul1725911404302"><li>across_spatial：可选，类型：bool，默认为true</li><li>scale_filler：可选，默认为1.0</li><li>channel_shared：可选，类型：bool，默认为true</li><li>eps：可选，类型：float，默认为1e-10</li></ul>
 <p id="p13263160151813"><a name="p13263160151813"></a><a name="p13263160151813"></a>【约束】</p>
-<a name="ul0491245143014"></a><a name="ul0491245143014"></a><ul id="ul0491245143014"><li>eps应大于1e-7，并且小于等于0.1+（1e-6）</li><li>caffe框架中的参数across_spatial目前只支持true，按channel进行norm操作</li></ul>
+<a name="ul0491245143014"></a><a name="ul0491245143014"></a><ul id="ul0491245143014"><li>eps应大于1e-7，并且小于等于0.1+（1e-6）</li><li>Caffe框架中的参数across_spatial目前只支持true，按channel进行norm操作</li></ul>
 <p id="p152641501185"><a name="p152641501185"></a><a name="p152641501185"></a>【量化工具支持】</p>
 <p id="p112648051816"><a name="p112648051816"></a><a name="p112648051816"></a>是</p>
 </td>
