@@ -27,7 +27,7 @@
     </td>
     <td class="cellrowborder" valign="top" width="19.45%" headers="mcps1.2.5.1.3 "><p id="p15988123211498"><a name="p15988123211498"></a><a name="p15988123211498"></a>字符串</p>
     </td>
-    <td class="cellrowborder" valign="top" width="47.71%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0174991595_p3765132681314"><a name="zh-cn_topic_0174991595_p3765132681314"></a><a name="zh-cn_topic_0174991595_p3765132681314"></a>Fatal级别的日志信息。</p>
+    <td class="cellrowborder" valign="top" width="47.71%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0174991595_p3765132681314"><a name="zh-cn_topic_0174991595_p3765132681314"></a><a name="zh-cn_topic_0174991595_p3765132681314"></a>Fatal级别的日志信息。单条日志支持最大255个字符。</p>
     </td>
     </tr>
     </tbody>

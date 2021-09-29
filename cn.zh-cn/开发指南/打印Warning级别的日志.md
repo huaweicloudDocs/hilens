@@ -1,10 +1,10 @@
-# 打印Info级别的日志<a name="hilens_05_0050"></a>
+# 打印Warning级别的日志<a name="hilens_05_0051"></a>
 
-输出Info级别的日志信息并保存至日志文件。
+输出Warn级别的日志信息并保存至日志文件。
 
 -   **接口调用**
 
-    hilens.info\(msg\)
+    hilens.warning\(msg\)
 
 -   **参数说明**
 
@@ -27,7 +27,7 @@
     </td>
     <td class="cellrowborder" valign="top" width="19.45%" headers="mcps1.2.5.1.3 "><p id="p15988123211498"><a name="p15988123211498"></a><a name="p15988123211498"></a>字符串</p>
     </td>
-    <td class="cellrowborder" valign="top" width="47.71%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0174991595_p3765132681314"><a name="zh-cn_topic_0174991595_p3765132681314"></a><a name="zh-cn_topic_0174991595_p3765132681314"></a>Info级别的日志信息。单条日志支持最大255个字符。</p>
+    <td class="cellrowborder" valign="top" width="47.71%" headers="mcps1.2.5.1.4 "><p id="zh-cn_topic_0174991595_p3765132681314"><a name="zh-cn_topic_0174991595_p3765132681314"></a><a name="zh-cn_topic_0174991595_p3765132681314"></a>Warning级别的日志信息。单条日志支持最大255个字符。</p>
     </td>
     </tr>
     </tbody>

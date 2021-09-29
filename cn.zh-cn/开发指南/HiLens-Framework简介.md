@@ -1,8 +1,8 @@
 # HiLens Framework简介<a name="hilens_05_0002"></a>
 
-HiLens Framework通过封装底层接口、实现常用的管理功能，让开发者可以在Huawei HiLens管理控制台上方便地开发技能，培育AI生态。
+HiLens Framework通过封装底层接口、实现常用的管理功能，让开发者可以在华为HiLens管理控制台上方便地开发技能，培育AI生态。
 
-HiLens Framework的分层结构如[图1](#fig8310203618820)所示，HiLens Framework封装了底层的多媒体处理库（摄像头/麦克风驱动模块Media\_mini），以及D芯片相关的图像处理库（DVPP）和模型管理库（ModelManager），另外开发者也可以使用熟悉的视觉处理库OpenCV。在此之上，HiLens Framework提供了以下6个模块供开发者使用，方便开发诸如人形检测、人脸识别、疲劳驾驶检测等技能，模块说明如下表[模块说明](#table173537486322)。
+HiLens Framework的分层结构如[图1](#fig8310203618820)所示，HiLens Framework封装了底层的多媒体处理库（摄像头/麦克风驱动模块Media\_mini），以及D芯片相关的图像处理库（DVPP）和模型管理库（ModelManager），另外开发者也可以使用熟悉的视觉处理库OpenCV。在此之上，HiLens Framework提供了以下6个模块供开发者使用，方便开发诸如人形检测、人脸识别、疲劳驾驶检测等技能，模块说明如[表1](#table173537486322)所示。
 
 **图 1**  HiLens Framework框架<a name="fig8310203618820"></a>  
 ![](figures/HiLens-Framework框架.png "HiLens-Framework框架")

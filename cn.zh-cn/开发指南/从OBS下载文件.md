@@ -27,7 +27,7 @@
     </td>
     <td class="cellrowborder" valign="top" width="24.71247124712471%" headers="mcps1.2.5.1.3 "><p id="p398283814408"><a name="p398283814408"></a><a name="p398283814408"></a>字符串</p>
     </td>
-    <td class="cellrowborder" valign="top" width="42.76427642764276%" headers="mcps1.2.5.1.4 "><p id="p15540914182716"><a name="p15540914182716"></a><a name="p15540914182716"></a>OBS资源的链接。</p>
+    <td class="cellrowborder" valign="top" width="42.76427642764276%" headers="mcps1.2.5.1.4 "><p id="p15540914182716"><a name="p15540914182716"></a><a name="p15540914182716"></a>OBS资源的链接。资源链接获取详情请参见<a href="https://support.huaweicloud.com/usermanual-obs/obs_03_0319.html#section1" target="_blank" rel="noopener noreferrer">OBS控制台指南&gt;通过对象URL访问对象</a>。</p>
     </td>
     </tr>
     <tr id="row1354018144275"><td class="cellrowborder" valign="top" width="16.21162116211621%" headers="mcps1.2.5.1.1 "><p id="p17540714152718"><a name="p17540714152718"></a><a name="p17540714152718"></a>download_to</p>
@@ -36,7 +36,7 @@
     </td>
     <td class="cellrowborder" valign="top" width="24.71247124712471%" headers="mcps1.2.5.1.3 "><p id="p10982738164015"><a name="p10982738164015"></a><a name="p10982738164015"></a>字符串</p>
     </td>
-    <td class="cellrowborder" valign="top" width="42.76427642764276%" headers="mcps1.2.5.1.4 "><p id="p454071419270"><a name="p454071419270"></a><a name="p454071419270"></a>指定文件下载后放置的目录。</p>
+    <td class="cellrowborder" valign="top" width="42.76427642764276%" headers="mcps1.2.5.1.4 "><p id="p454071419270"><a name="p454071419270"></a><a name="p454071419270"></a>指定文件下载后放置的目录，建议使用已经存在的目录。路径长度最大支持256。</p>
     </td>
     </tr>
     </tbody>

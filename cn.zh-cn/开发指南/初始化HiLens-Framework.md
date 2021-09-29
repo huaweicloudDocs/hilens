@@ -28,11 +28,14 @@
     <td class="cellrowborder" valign="top" width="12.73127312731273%" headers="mcps1.2.5.1.3 "><p id="p107911132174015"><a name="p107911132174015"></a><a name="p107911132174015"></a>字符串</p>
     </td>
     <td class="cellrowborder" valign="top" width="53.70537053705371%" headers="mcps1.2.5.1.4 "><p id="p18202191915229"><a name="p18202191915229"></a><a name="p18202191915229"></a>长度0到128的字符串。</p>
-    <p id="p013657132416"><a name="p013657132416"></a><a name="p013657132416"></a>应与Huawei HiLens管理控制台上<a href="https://support.huaweicloud.com/usermanual-hilens/hilens_02_0022.html#section3" target="_blank" rel="noopener noreferrer">新建技能</a>时，所填写的<span class="parmname" id="parmname3195165211"><a name="parmname3195165211"></a><a name="parmname3195165211"></a>“基本信息”</span>中的<span class="parmvalue" id="parmvalue6583191813211"><a name="parmvalue6583191813211"></a><a name="parmvalue6583191813211"></a>“检验值”</span>一致。如果不一致，HiLens Framework会强制技能停止。</p>
+    <p id="p013657132416"><a name="p013657132416"></a><a name="p013657132416"></a>应与华为HiLens管理控制台上<a href="https://support.huaweicloud.com/usermanual-hilens/hilens_02_0022.html#section3" target="_blank" rel="noopener noreferrer">新建技能</a>时，所填写的<span class="parmname" id="parmname3195165211"><a name="parmname3195165211"></a><a name="parmname3195165211"></a>“基本信息”</span>中的<span class="parmvalue" id="parmvalue6583191813211"><a name="parmvalue6583191813211"></a><a name="parmvalue6583191813211"></a>“检验值”</span>一致。如果不一致，HiLens Framework会强制技能停止。</p>
     </td>
     </tr>
     </tbody>
     </table>
+
+    **图 1**  新建技能<a name="fig66691744143819"></a>  
+    ![](figures/新建技能.png "新建技能")
 
 -   **返回值**
 
@@ -47,8 +50,7 @@
     def verify():   
         # 开发者需要实现一个方法，来验证程序身份(以防被损坏、篡改)
         # 例如可以计算技能包中重要文件的Hash值，verify应当返回一个字符串(1~128字节)。
-        # 在HiLens平台，技能开发中填入此Hash值。调用init方法后，技能会自动将此Hash值
-        # 发送到平台上进行比对，并验证技能的使用许可。
+        # 在HiLens平台，技能开发中填入此Hash值。调用init方法后，技能会自动将此Hash值发送到平台上进行比对，并验证技能的使用许可。
     
         # 调试期间，开发者可以考虑使用一个固定的字符串来进行校验，以便于修改代码。
         # 因为Python脚本源码下发到设备上较容易篡改，对于商用技能，建议开发者使用C++进行开发。

@@ -14,9 +14,9 @@ def run():
     f=open('/tmp/dengchao.jpg','rb')
     base_f=base64.b64encode(f.read())
     f_string=base_f.decode('utf-8')
-    response0 = hilens.EIServices.HumanDetect(f_string)
-    print(response0.requestState)
-    print(response0.responseBody)
+    
+
+
 
     # 使用Mat格式或者直接从摄像头输入
     #img = cv2.imread("/tmp/dengchao.jpg")
@@ -26,9 +26,9 @@ def run():
     img_str = cv2.imencode('.jpg', img)[1].tostring()  # 将图片编码成流数据，放到内存缓存中，然后转化成string格式
     b64_code = base64.b64encode(img_str) # 编码成base64
     f_string1=b64_code.decode('utf-8')
-    response1 = hilens.EIServices.HumanDetect(f_string1)
-    print(response1.requestState)
-    print(response1.responseBody)
+    
+
+
 
     headers = hilens.EIHeaders()
     body = {"image_base64": f_string}
